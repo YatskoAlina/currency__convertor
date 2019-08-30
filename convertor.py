@@ -7,7 +7,7 @@ data = api_data.json()
 
 def get_usd_uah():
     try:
-        entered_num = float(input('Enter currency in UAN:\n'))
+        entered_num = float(input('Enter currency in UAH:\n'))
     except ValueError:
         entered_num = 0
         print('Incorrect input')
